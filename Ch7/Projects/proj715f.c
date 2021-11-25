@@ -13,7 +13,7 @@ int main(void)
         }
         factorial = factorial * (i - 1);
     }
-    printf("(f) Factorial of 6 with a double variable: %f\n", factorial);
+    printf("(f) Factorial of %f with a double variable: %f\n", double_value, factorial);
 
     return 0;
 }

@@ -13,7 +13,7 @@ int main(void)
         }
         factorial = factorial * (i - 1);
     }
-    printf("(c) Factorial of 6 with a long variable: %ld\n", factorial);
+    printf("(c) Factorial of %ld with a long variable: %ld\n", long_value, factorial);
 
     return 0;
 }

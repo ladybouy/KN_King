@@ -13,7 +13,7 @@ int main(void)
         }
         factorial = factorial * (i - 1);
     }
-    printf("(e) Factorial of 6 with a float variable: %f\n", factorial);
+    printf("(e) Factorial of %f with a float variable: %f\n", float_value, factorial);
 
     return 0;
 }

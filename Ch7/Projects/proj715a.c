@@ -13,7 +13,7 @@ int main(void)
         }
         factorial = factorial * (i - 1);
     }
-    printf("(a) Factorial of 6 with a short variable: %hd\n", factorial);
+    printf("(a) Factorial of %d with a short variable: %hd\n", short_value, factorial);
 
     return 0;
 }
