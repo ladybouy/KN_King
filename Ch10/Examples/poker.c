@@ -77,6 +77,7 @@ void read_cards(void)
             case 'q': case 'Q': rank = 10; break;
             case 'k': case 'K': rank = 11; break;
             case 'a': case 'A': rank = 12; break;
+            default:            bad_card = true;
         }
 
         suit_ch = getchar();
@@ -94,7 +95,7 @@ void read_cards(void)
             printf("Bad card; ignored.\n");
         else {
             num_in_rank[rank]++;
-            num_in_rank[suit]++;
+            num_in_suit[suit]++;
             card_exists[rank][suit] = true;
             cards_read++;
         }
